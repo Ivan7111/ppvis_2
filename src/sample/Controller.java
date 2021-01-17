@@ -1,9 +1,4 @@
 package sample;
-import java.util.*;
-import javafx.application.Application;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.layout.*;
 
 public class Controller {
     void createOnlinePlatform(){
