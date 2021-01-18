@@ -19,12 +19,12 @@ public class OnlinePlatform_impl implements OnlinePlatform{
     public User currentUser;
     public List<Task> tasksAvailable = new ArrayList<>();
     public List<Task> tasksTaken = new ArrayList<>();
-    public List<Task> tasksDone = new ArrayList<>();
-    public List<User> users = new ArrayList<>();
+    public List<Report> reportsList = new ArrayList<>();
+    public List<User> usersList = new ArrayList<>();
 
     private MainWindow mainWindow;
 
-    public OnlinePlatform_impl(MainWindow mainWindow, Enter_impl enter, MainMenu_impl mainMenu){
+    public OnlinePlatform_impl(MainWindow mainWindow){
         this.mainWindow = mainWindow;
     }
 

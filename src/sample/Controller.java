@@ -5,7 +5,7 @@ public class Controller {
         MainMenu_impl mainMenu = new MainMenu_impl();
         Enter_impl enter = new Enter_impl();
         MainWindow mainWindow = new MainWindow(mainMenu, enter);
-        OnlinePlatform_impl onlinePlatform = new OnlinePlatform_impl(mainWindow, enter, mainMenu);
+        OnlinePlatform_impl onlinePlatform = new OnlinePlatform_impl(mainWindow);
         onlinePlatform.startWork();
     }
 }
