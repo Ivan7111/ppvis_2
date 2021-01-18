@@ -1,16 +1,6 @@
 package sample;
 
-import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-
-import java.util.List;
-
 public class Enter_impl implements Enter {
-    Scene scene;
-    Stage stage;
-    VBox vbox;
-    User user;
 
     @Override
     public boolean checkUser(String userName, String password) {
