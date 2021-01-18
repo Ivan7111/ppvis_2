@@ -8,4 +8,5 @@ public class Report {
     public int mediumGrade;
     public User executor;
     public User moderator;
+    public Task task;
 }
